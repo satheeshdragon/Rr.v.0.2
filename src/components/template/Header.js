@@ -14,6 +14,9 @@ const Header = () => {
       <NavLink className="nav-item nav-link" exact activeClassName="active" to="/About">About</NavLink>
       <NavLink className="nav-item nav-link" exact activeClassName="active" to="/Api">Api</NavLink>
       <NavLink className="nav-item nav-link" exact activeClassName="active" to="/Conditional">Conditional</NavLink>
+      <NavLink className="nav-item nav-link" exact activeClassName="active" to="/Eventhandle">Event.Handle</NavLink>
+      <NavLink className="nav-item nav-link" exact activeClassName="active" to="/Exer">Exer-Add</NavLink>
+      <NavLink className="nav-item nav-link" exact activeClassName="active" to="/E_view">E-View</NavLink>
     </Nav>
 </Navbar>
 

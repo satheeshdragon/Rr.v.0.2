@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import NewComponent from "./Hoc";
 
 
-class About extends Component {
+class About extends Component {  
   render() {
+    // Destructive props
+    const { func } = this.props
     return (
        <div ClassName="text-center">
          <p> Iam About count Data  : {this.props.count}</p>
-         <button onClick={this.props.func}>Count</button>
+         <button onClick={func}>Count</button>
        </div>
     );
   }

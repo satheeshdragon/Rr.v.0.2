@@ -8,6 +8,10 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Api from "./pages/Api";
 import Conditional from "./pages/Conditional";
+import Eventhandle from "./pages/Eventhandle";
+import Exer from "./pages/Excer";
+import E_view from "./pages/Excer_view";
+import E_edit from "./pages/Excer_edit";
 import createBrowserHistory from "history/createBrowserHistory";
 
 const history = createBrowserHistory();
@@ -29,6 +33,10 @@ export default function App() {
             <Route exact path="/About" component={About} />
             <Route exact path="/Api" component={Api} />
             <Route exact path="/Conditional" component={Conditional} />
+            <Route exact path="/Eventhandle" component={Eventhandle} />
+            <Route exact path="/Exer" component={Exer} />
+            <Route exact path="/E_view" component={E_view} />
+            <Route exact path="/E_edit/:id" component={E_edit} />
           </Switch>
           <Footer name={"satheesh_data_probs"} />
         </div>
